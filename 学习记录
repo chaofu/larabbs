@@ -1,0 +1,16 @@
+2018-03-22
+1：安装了 laravel-permission 权限
+   在larabbs 站点 有几个角色
+  游客       可以随便浏览页面，但是无法发布内容；
+  用户       能够发布内容，却只能管理自己的内容；
+  管理员     可以管理所有用户的内容，然而不能管理用户；
+  站长       拥有最高权限，可以管理所有内容，包括用户。
+
+   laravel-permission  有几个表
+
+   permissions             权限表
+   role_has_permissions    角色权限表
+   roles                   角色表
+   model_has_permissions
+   model_has_roles
+
