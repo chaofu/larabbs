@@ -42,6 +42,14 @@ return array(
             'roles',
             'permissions'
         ],
+        '内容与管理' => [
+            'categories',
+            'topics',
+            'replies',
+        ],
+        '站点管理' => [
+            'settings.site',
+        ],
     ],
 
     /*
